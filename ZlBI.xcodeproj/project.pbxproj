@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AAD62682DA9784AE1C301A7 /* libPods-ZlBI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 769133904EF8E55C8F9DB79B /* libPods-ZlBI.a */; };
+		FB11E33A1CE1BDC5005086BC /* ZlPduclistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11E3391CE1BDC5005086BC /* ZlPduclistTableViewController.m */; };
+		FB11E33E1CE1C1FF005086BC /* test@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E33C1CE1C1FF005086BC /* test@2x.png */; };
+		FB11E33F1CE1C1FF005086BC /* test@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E33D1CE1C1FF005086BC /* test@3x.png */; };
+		FB11E3441CE1C676005086BC /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3401CE1C676005086BC /* check@2x.png */; };
+		FB11E3451CE1C676005086BC /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3411CE1C676005086BC /* clock@2x.png */; };
+		FB11E3461CE1C676005086BC /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3421CE1C676005086BC /* cross@2x.png */; };
+		FB11E3471CE1C676005086BC /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3431CE1C676005086BC /* list@2x.png */; };
+		FB11E34B1CE1D9FD005086BC /* NSString+StringForFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */; };
+		FB7EC6211CE02A4F00E34058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6201CE02A4F00E34058 /* main.m */; };
+		FB7EC6241CE02A4F00E34058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6231CE02A4F00E34058 /* AppDelegate.m */; };
+		FB7EC62A1CE02A4F00E34058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EC6281CE02A4F00E34058 /* Main.storyboard */; };
+		FB7EC62C1CE02A4F00E34058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7EC62B1CE02A4F00E34058 /* Assets.xcassets */; };
+		FB7EC62F1CE02A4F00E34058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EC62D1CE02A4F00E34058 /* LaunchScreen.storyboard */; };
+		FB7EC6631CE032BD00E34058 /* ZlCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */; };
+		FB7EC66A1CE0423E00E34058 /* ZlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7EC6361CE02A4F00E34058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7EC6141CE02A4F00E34058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7EC61B1CE02A4F00E34058;
+			remoteInfo = ZlBI;
+		};
+		FB7EC6411CE02A4F00E34058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7EC6141CE02A4F00E34058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7EC61B1CE02A4F00E34058;
+			remoteInfo = ZlBI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9E918185A761E4167E8F27 /* Pods-ZlBI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZlBI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZlBI/Pods-ZlBI.debug.xcconfig"; sourceTree = "<group>"; };
+		769133904EF8E55C8F9DB79B /* libPods-ZlBI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZlBI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810E231B46183ACE511B093D /* Pods-ZlBI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZlBI.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZlBI/Pods-ZlBI.release.xcconfig"; sourceTree = "<group>"; };
+		FB11E3371CE1B877005086BC /* ZlBiPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZlBiPrefixHeader.pch; sourceTree = "<group>"; };
+		FB11E3381CE1BDC5005086BC /* ZlPduclistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlPduclistTableViewController.h; sourceTree = "<group>"; };
+		FB11E3391CE1BDC5005086BC /* ZlPduclistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlPduclistTableViewController.m; sourceTree = "<group>"; };
+		FB11E33C1CE1C1FF005086BC /* test@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@2x.png"; sourceTree = "<group>"; };
+		FB11E33D1CE1C1FF005086BC /* test@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@3x.png"; sourceTree = "<group>"; };
+		FB11E3401CE1C676005086BC /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		FB11E3411CE1C676005086BC /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		FB11E3421CE1C676005086BC /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		FB11E3431CE1C676005086BC /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		FB11E3491CE1D9FD005086BC /* NSString+StringForFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringForFont.h"; sourceTree = "<group>"; };
+		FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringForFont.m"; sourceTree = "<group>"; };
+		FB7EC61C1CE02A4F00E34058 /* ZlBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZlBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7EC6201CE02A4F00E34058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB7EC6221CE02A4F00E34058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB7EC6231CE02A4F00E34058 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB7EC6291CE02A4F00E34058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7EC62B1CE02A4F00E34058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7EC62E1CE02A4F00E34058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB7EC6301CE02A4F00E34058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7EC6351CE02A4F00E34058 /* ZlBITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZlBITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7EC6401CE02A4F00E34058 /* ZlBIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZlBIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7EC6611CE032BD00E34058 /* ZlCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlCellItemModel.h; sourceTree = "<group>"; };
+		FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlCellItemModel.m; sourceTree = "<group>"; };
+		FB7EC6681CE0423E00E34058 /* ZlTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlTableViewCell.h; sourceTree = "<group>"; };
+		FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7EC6191CE02A4F00E34058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAD62682DA9784AE1C301A7 /* libPods-ZlBI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC6321CE02A4F00E34058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC63D1CE02A4F00E34058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A145B120D644F14C0B8B2ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				769133904EF8E55C8F9DB79B /* libPods-ZlBI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C26CAB1FA7587F8D2E1B51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B9E918185A761E4167E8F27 /* Pods-ZlBI.debug.xcconfig */,
+				810E231B46183ACE511B093D /* Pods-ZlBI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB11E33B1CE1C1FF005086BC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				FB11E3401CE1C676005086BC /* check@2x.png */,
+				FB11E3411CE1C676005086BC /* clock@2x.png */,
+				FB11E3421CE1C676005086BC /* cross@2x.png */,
+				FB11E3431CE1C676005086BC /* list@2x.png */,
+				FB11E33C1CE1C1FF005086BC /* test@2x.png */,
+				FB11E33D1CE1C1FF005086BC /* test@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		FB11E3481CE1D9EC005086BC /* ObjectC */ = {
+			isa = PBXGroup;
+			children = (
+				FB11E3491CE1D9FD005086BC /* NSString+StringForFont.h */,
+				FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */,
+			);
+			path = ObjectC;
+			sourceTree = "<group>";
+		};
+		FB7EC6131CE02A4F00E34058 = {
+			isa = PBXGroup;
+			children = (
+				FB7EC61E1CE02A4F00E34058 /* ZlBI */,
+				FB7EC61D1CE02A4F00E34058 /* Products */,
+				F5C26CAB1FA7587F8D2E1B51 /* Pods */,
+				A145B120D644F14C0B8B2ABD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7EC61D1CE02A4F00E34058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC61C1CE02A4F00E34058 /* ZlBI.app */,
+				FB7EC6351CE02A4F00E34058 /* ZlBITests.xctest */,
+				FB7EC6401CE02A4F00E34058 /* ZlBIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7EC61E1CE02A4F00E34058 /* ZlBI */ = {
+			isa = PBXGroup;
+			children = (
+				FB11E3481CE1D9EC005086BC /* ObjectC */,
+				FB11E33B1CE1C1FF005086BC /* image */,
+				FB7EC6521CE02D5F00E34058 /* Model */,
+				FB7EC6531CE02D5F00E34058 /* View(列表的Cell) */,
+				FB7EC6541CE02D5F00E34058 /* ViewController */,
+				FB7EC6221CE02A4F00E34058 /* AppDelegate.h */,
+				FB7EC6231CE02A4F00E34058 /* AppDelegate.m */,
+				FB7EC6281CE02A4F00E34058 /* Main.storyboard */,
+				FB7EC62B1CE02A4F00E34058 /* Assets.xcassets */,
+				FB7EC62D1CE02A4F00E34058 /* LaunchScreen.storyboard */,
+				FB7EC6301CE02A4F00E34058 /* Info.plist */,
+				FB7EC61F1CE02A4F00E34058 /* Supporting Files */,
+				FB11E3371CE1B877005086BC /* ZlBiPrefixHeader.pch */,
+			);
+			path = ZlBI;
+			sourceTree = "<group>";
+		};
+		FB7EC61F1CE02A4F00E34058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC6201CE02A4F00E34058 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB7EC6521CE02D5F00E34058 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC6601CE032A300E34058 /* CellModel(列表的Cell的Model) */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB7EC6531CE02D5F00E34058 /* View(列表的Cell) */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC6681CE0423E00E34058 /* ZlTableViewCell.h */,
+				FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */,
+			);
+			name = "View(列表的Cell)";
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB7EC6541CE02D5F00E34058 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC6581CE02F5700E34058 /* ProList(产品列表) */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FB7EC6581CE02F5700E34058 /* ProList(产品列表) */ = {
+			isa = PBXGroup;
+			children = (
+				FB11E3381CE1BDC5005086BC /* ZlPduclistTableViewController.h */,
+				FB11E3391CE1BDC5005086BC /* ZlPduclistTableViewController.m */,
+			);
+			name = "ProList(产品列表)";
+			path = ProList;
+			sourceTree = "<group>";
+		};
+		FB7EC6601CE032A300E34058 /* CellModel(列表的Cell的Model) */ = {
+			isa = PBXGroup;
+			children = (
+				FB7EC6611CE032BD00E34058 /* ZlCellItemModel.h */,
+				FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */,
+			);
+			name = "CellModel(列表的Cell的Model)";
+			path = CellModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7EC61B1CE02A4F00E34058 /* ZlBI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7EC6491CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBI" */;
+			buildPhases = (
+				527245C5D7B38A21C2ABADD1 /* Check Pods Manifest.lock */,
+				FB7EC6181CE02A4F00E34058 /* Sources */,
+				FB7EC6191CE02A4F00E34058 /* Frameworks */,
+				FB7EC61A1CE02A4F00E34058 /* Resources */,
+				DE2EF1B2CB053C6969C63680 /* Embed Pods Frameworks */,
+				54442CC71BA304912765CC32 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZlBI;
+			productName = ZlBI;
+			productReference = FB7EC61C1CE02A4F00E34058 /* ZlBI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7EC6341CE02A4F00E34058 /* ZlBITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7EC64C1CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBITests" */;
+			buildPhases = (
+				FB7EC6311CE02A4F00E34058 /* Sources */,
+				FB7EC6321CE02A4F00E34058 /* Frameworks */,
+				FB7EC6331CE02A4F00E34058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7EC6371CE02A4F00E34058 /* PBXTargetDependency */,
+			);
+			name = ZlBITests;
+			productName = ZlBITests;
+			productReference = FB7EC6351CE02A4F00E34058 /* ZlBITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7EC63F1CE02A4F00E34058 /* ZlBIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7EC64F1CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBIUITests" */;
+			buildPhases = (
+				FB7EC63C1CE02A4F00E34058 /* Sources */,
+				FB7EC63D1CE02A4F00E34058 /* Frameworks */,
+				FB7EC63E1CE02A4F00E34058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7EC6421CE02A4F00E34058 /* PBXTargetDependency */,
+			);
+			name = ZlBIUITests;
+			productName = ZlBIUITests;
+			productReference = FB7EC6401CE02A4F00E34058 /* ZlBIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7EC6141CE02A4F00E34058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhouhuan;
+				TargetAttributes = {
+					FB7EC61B1CE02A4F00E34058 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FB7EC6341CE02A4F00E34058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB7EC61B1CE02A4F00E34058;
+					};
+					FB7EC63F1CE02A4F00E34058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB7EC61B1CE02A4F00E34058;
+					};
+				};
+			};
+			buildConfigurationList = FB7EC6171CE02A4F00E34058 /* Build configuration list for PBXProject "ZlBI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7EC6131CE02A4F00E34058;
+			productRefGroup = FB7EC61D1CE02A4F00E34058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7EC61B1CE02A4F00E34058 /* ZlBI */,
+				FB7EC6341CE02A4F00E34058 /* ZlBITests */,
+				FB7EC63F1CE02A4F00E34058 /* ZlBIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7EC61A1CE02A4F00E34058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB11E33F1CE1C1FF005086BC /* test@3x.png in Resources */,
+				FB7EC62F1CE02A4F00E34058 /* LaunchScreen.storyboard in Resources */,
+				FB7EC62C1CE02A4F00E34058 /* Assets.xcassets in Resources */,
+				FB11E3461CE1C676005086BC /* cross@2x.png in Resources */,
+				FB11E3471CE1C676005086BC /* list@2x.png in Resources */,
+				FB7EC62A1CE02A4F00E34058 /* Main.storyboard in Resources */,
+				FB11E3451CE1C676005086BC /* clock@2x.png in Resources */,
+				FB11E33E1CE1C1FF005086BC /* test@2x.png in Resources */,
+				FB11E3441CE1C676005086BC /* check@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC6331CE02A4F00E34058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC63E1CE02A4F00E34058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		527245C5D7B38A21C2ABADD1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54442CC71BA304912765CC32 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZlBI/Pods-ZlBI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2EF1B2CB053C6969C63680 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZlBI/Pods-ZlBI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7EC6181CE02A4F00E34058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7EC6631CE032BD00E34058 /* ZlCellItemModel.m in Sources */,
+				FB7EC6241CE02A4F00E34058 /* AppDelegate.m in Sources */,
+				FB7EC66A1CE0423E00E34058 /* ZlTableViewCell.m in Sources */,
+				FB11E34B1CE1D9FD005086BC /* NSString+StringForFont.m in Sources */,
+				FB7EC6211CE02A4F00E34058 /* main.m in Sources */,
+				FB11E33A1CE1BDC5005086BC /* ZlPduclistTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC6311CE02A4F00E34058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7EC63C1CE02A4F00E34058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7EC6371CE02A4F00E34058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7EC61B1CE02A4F00E34058 /* ZlBI */;
+			targetProxy = FB7EC6361CE02A4F00E34058 /* PBXContainerItemProxy */;
+		};
+		FB7EC6421CE02A4F00E34058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7EC61B1CE02A4F00E34058 /* ZlBI */;
+			targetProxy = FB7EC6411CE02A4F00E34058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7EC6281CE02A4F00E34058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7EC6291CE02A4F00E34058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7EC62D1CE02A4F00E34058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7EC62E1CE02A4F00E34058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7EC6471CE02A4F00E34058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB7EC6481CE02A4F00E34058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7EC64A1CE02A4F00E34058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B9E918185A761E4167E8F27 /* Pods-ZlBI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZlBI/ZlBiPrefixHeader.pch;
+				INFOPLIST_FILE = ZlBI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB7EC64B1CE02A4F00E34058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810E231B46183ACE511B093D /* Pods-ZlBI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZlBI/ZlBiPrefixHeader.pch;
+				INFOPLIST_FILE = ZlBI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB7EC64D1CE02A4F00E34058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZlBITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZlBI.app/ZlBI";
+			};
+			name = Debug;
+		};
+		FB7EC64E1CE02A4F00E34058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZlBITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZlBI.app/ZlBI";
+			};
+			name = Release;
+		};
+		FB7EC6501CE02A4F00E34058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZlBIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZlBI;
+			};
+			name = Debug;
+		};
+		FB7EC6511CE02A4F00E34058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZlBIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zlongame.sdk.ZlBIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZlBI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7EC6171CE02A4F00E34058 /* Build configuration list for PBXProject "ZlBI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7EC6471CE02A4F00E34058 /* Debug */,
+				FB7EC6481CE02A4F00E34058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7EC6491CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7EC64A1CE02A4F00E34058 /* Debug */,
+				FB7EC64B1CE02A4F00E34058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7EC64C1CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7EC64D1CE02A4F00E34058 /* Debug */,
+				FB7EC64E1CE02A4F00E34058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7EC64F1CE02A4F00E34058 /* Build configuration list for PBXNativeTarget "ZlBIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7EC6501CE02A4F00E34058 /* Debug */,
+				FB7EC6511CE02A4F00E34058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7EC6141CE02A4F00E34058 /* Project object */;
+}

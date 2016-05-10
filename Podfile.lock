@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (0.5.3)
+  - SSKeychain (1.2.3)
+  - SWTableViewCell (0.3.7)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - Masonry (= 0.5.3)
+  - SSKeychain (= 1.2.3)
+  - SWTableViewCell (~> 0.3.7)
+  - UICountingLabel (~> 1.2.0)
+
+SPEC CHECKSUMS:
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.39.0

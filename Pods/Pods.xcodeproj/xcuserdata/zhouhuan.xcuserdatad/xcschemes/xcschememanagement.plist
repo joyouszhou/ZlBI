@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZlBI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SSKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SWTableViewCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UICountingLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>143B2A8A683342352EE2357662EA7A39</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29852B71914AA2E261D18F89DE5A907F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FD2722633A9749346C3ACEE7EA781DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A74B19071928414A19952DEC02BF199</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BFEE424390A3213C7BDA50A08A79A2ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
