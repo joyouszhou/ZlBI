@@ -8,10 +8,11 @@
 
 #import "ChannleDayDataController.h"
 #import "ZlGroupButtonView.h"
-
+#import "ZlChannelDataSummaryView.h"
 @interface ChannleDayDataController ()<ZlGroupDelegate>
 
-@property (nonatomic, strong) ZlGroupButtonView *               groupbtn;
+@property (nonatomic, strong) ZlGroupButtonView         *               groupbtn;
+@property (nonatomic, strong) ZlChannelDataSummaryView  *               dataView;
 
 @end
 
@@ -29,13 +30,20 @@
     
     self.view.backgroundColor = [UIColor colorWithHexString:@"0xcecece"];
     
- 
-    
     [self settupGroupBtn];
-    
-    
-    
+    self.dataView = [[ZlChannelDataSummaryView alloc] init];
+    self.dataView.backgroundColor= [UIColor whiteColor];
+    [self.view addSubview:self.dataView];
+    [self.dataView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(self.groupbtn.mas_bottom).with.offset(10);
+        make.centerX.mas_equalTo(self.view.mas_centerX);
+        make.width.mas_equalTo(self.view.mas_width).multipliedBy(0.9);
+        make.height.mas_equalTo(self.view.mas_height).multipliedBy(0.2);
+    }];
 }
+
+
+
 -(void)settupGroupBtn
 {
     _groupbtn = [[ZlGroupButtonView alloc] init];

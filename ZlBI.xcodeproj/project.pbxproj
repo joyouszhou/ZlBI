@@ -29,6 +29,7 @@
 		FBBFC5A51CE32F2B00C3DE6F /* NSString+StringForFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A01CE32F2B00C3DE6F /* NSString+StringForFont.m */; };
 		FBBFC5A61CE32F2B00C3DE6F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */; };
 		FBBFC5A71CE32F2B00C3DE6F /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */; };
+		FBBFC5AA1CE33E3400C3DE6F /* ZlChannelDataSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
 		FBBFC5A31CE32F2B00C3DE6F /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
 		FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		FBBFC5A81CE33E3400C3DE6F /* ZlChannelDataSummaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlChannelDataSummaryView.h; sourceTree = "<group>"; };
+		FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlChannelDataSummaryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +214,8 @@
 				FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */,
 				FBBFC5961CE317AB00C3DE6F /* ZlGroupButtonView.h */,
 				FBBFC5971CE317AB00C3DE6F /* ZlGroupButtonView.m */,
+				FBBFC5A81CE33E3400C3DE6F /* ZlChannelDataSummaryView.h */,
+				FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				FBBFC5A51CE32F2B00C3DE6F /* NSString+StringForFont.m in Sources */,
 				FBBFC5981CE317AB00C3DE6F /* ZlGroupButtonView.m in Sources */,
 				FBBFC58E1CE2DD6E00C3DE6F /* ZlCellSectionModel.m in Sources */,
+				FBBFC5AA1CE33E3400C3DE6F /* ZlChannelDataSummaryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
