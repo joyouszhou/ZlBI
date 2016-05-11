@@ -45,6 +45,7 @@
     if (_cellModel.accessType&ZlCellItemStyleTitle) {
         if (self.cellModel.textTitleName&&self.cellModel.textTitleName>0) {
             self.labelText.text = self.cellModel.textTitleName;
+            self.labelText.font = self.cellModel.fontTitleName;
             [self.labelText setHidden:NO];
             [self.labelText mas_updateConstraints:^(MASConstraintMaker *make) {
                 make.size.mas_equalTo([NSString sizeForTitle:_cellModel.textTitleName withFont:self.labelText.font]);
@@ -166,7 +167,6 @@
 {
     if (!_labelText) {
         _labelText = [[UILabel alloc] init];
-        
     }
     return _labelText;
 }

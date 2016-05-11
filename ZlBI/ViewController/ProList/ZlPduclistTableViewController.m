@@ -9,9 +9,11 @@
 #import "ZlPduclistTableViewController.h"
 #import "ZlTableViewCell.h"
 #import "ZlCellItemModel.h"
+#import "ZlCellSectionModel.h"
+#import "ChannleDayDataController.h"
 
 @interface ZlPduclistTableViewController ()
-
+@property (nonatomic, strong) NSArray                               *sectionArray;                    //section模型数组
 @end
 
 @implementation ZlPduclistTableViewController
@@ -24,15 +26,40 @@
     self.modalPresentationCapturesStatusBarAppearance = NO;
     self.navigationController.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"我的产品";
-    self.view.backgroundColor = [UIColor colorWithRed:223 green:223 blue:223 alpha:1];
+    self.tableView.backgroundColor = [UIColor colorWithHexString:@"0xcecece"];
     
     self.tableView.rowHeight = 90;
     
+    //去除掉空的TableView显示
+    self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    [self setupSection];
+    
+}
+
+
+-(void)setupSection
+{
+    ZlCellItemModel * item1 = [[ZlCellItemModel alloc] init];
+    item1.imageFile = @"test.png";
+    item1.textTitleName = @"青丘狐传说";
+    item1.fontTitleName = [UIFont systemFontOfSize:25];
+    item1.accessType = ZlCellItemStyleTitle;
+    
+    ZlCellSectionModel *section1 = [[ZlCellSectionModel alloc]init];
+    section1.sectionHeaderHeight = 5;
+    section1.itemArray = @[item1];
+    
+    self.sectionArray = @[section1];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,43 +70,26 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
-    return 1;
+    
+    return self.sectionArray.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
-    return 1;
+    
+    ZlCellSectionModel *sectionModel = self.sectionArray[section];
+    return sectionModel.itemArray.count;
+    
 }
 
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
+    
     static NSString * cellIdentifier =@"cell";
-    
-    ZlCellItemModel * model = [[ZlCellItemModel alloc] init];
-    model.imageFile = @"test.png";
-    model.textTitleName = @"test";
-    model.accessType = ZlCellItemStyleTitle;
-    
-    
-    
-    
+    ZlCellSectionModel *sectionModel = self.sectionArray[indexPath.section];
+    ZlCellItemModel *itemModel = sectionModel.itemArray[indexPath.row];
     ZlTableViewCell *cell = cell = [[ZlTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
-     [cell setLeftUtilityButtons:[self leftButtons] WithButtonWidth:32.0f];
+    [cell setLeftUtilityButtons:[self leftButtons] WithButtonWidth:32.0f];
     
-//    [cell setLeftUtilityButtons:[self leftButtons] WithButtonWidth:32.0f];
-//    [cell setRightUtilityButtons:[self rightButtons] WithButtonWidth:58.0f];
-//    cell.delegate = self;
-//    
-//    cell.label.text = [NSString stringWithFormat:@"Section: %ld, Seat: %ld", (long)indexPath.section, (long)indexPath.row];
-//
-    [cell setCellModel:model];
-//    cell.textLabel.text = @"测试";
-//    cell.textLabel.backgroundColor = [UIColor whiteColor];
-//    cell.imageView.image = [UIImage imageNamed:@"test.png"];
-//    cell.detailTextLabel.backgroundColor = [UIColor whiteColor];
-//    cell.detailTextLabel.text = @"Some detail text";
+    [cell setCellModel:itemModel];
     
     return cell;
 }
@@ -102,6 +112,32 @@
                                                 icon:[UIImage imageNamed:@"list.png"]];
     
     return leftUtilityButtons;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    ZlCellSectionModel *sectionModel = self.sectionArray[section];
+    return sectionModel.sectionHeaderHeight;
+}
+
+//uitableview处理section的不悬浮，禁止section停留的方法，主要是这段代码
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    ZlCellSectionModel *sectionModel = [self.sectionArray firstObject];
+    CGFloat sectionHeaderHeight = sectionModel.sectionHeaderHeight;
+    
+    if (scrollView.contentOffset.y<=sectionHeaderHeight&&scrollView.contentOffset.y>=0) {
+        scrollView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
+    } else if (scrollView.contentOffset.y>=sectionHeaderHeight) {
+        scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
+    }
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"select on row %@",indexPath);
+    
+    ChannleDayDataController *datacc = [[ChannleDayDataController alloc] init];
+    datacc.ProName = @"青丘狐传说";
+    [self.navigationController pushViewController:datacc animated:YES];
+    
 }
 
 /*
@@ -147,6 +183,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
 - (void)swipeableTableViewCell:(SWTableViewCell *)cell didTriggerLeftUtilityButtonWithIndex:(NSInteger)index
 {
     

@@ -15,7 +15,6 @@
 		FB11E3451CE1C676005086BC /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3411CE1C676005086BC /* clock@2x.png */; };
 		FB11E3461CE1C676005086BC /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3421CE1C676005086BC /* cross@2x.png */; };
 		FB11E3471CE1C676005086BC /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB11E3431CE1C676005086BC /* list@2x.png */; };
-		FB11E34B1CE1D9FD005086BC /* NSString+StringForFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */; };
 		FB7EC6211CE02A4F00E34058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6201CE02A4F00E34058 /* main.m */; };
 		FB7EC6241CE02A4F00E34058 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6231CE02A4F00E34058 /* AppDelegate.m */; };
 		FB7EC62A1CE02A4F00E34058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EC6281CE02A4F00E34058 /* Main.storyboard */; };
@@ -23,6 +22,13 @@
 		FB7EC62F1CE02A4F00E34058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EC62D1CE02A4F00E34058 /* LaunchScreen.storyboard */; };
 		FB7EC6631CE032BD00E34058 /* ZlCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */; };
 		FB7EC66A1CE0423E00E34058 /* ZlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */; };
+		FBBFC58E1CE2DD6E00C3DE6F /* ZlCellSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC58D1CE2DD6E00C3DE6F /* ZlCellSectionModel.m */; };
+		FBBFC5951CE310C700C3DE6F /* ChannleDayDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5941CE310C700C3DE6F /* ChannleDayDataController.m */; };
+		FBBFC5981CE317AB00C3DE6F /* ZlGroupButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5971CE317AB00C3DE6F /* ZlGroupButtonView.m */; };
+		FBBFC59C1CE3186500C3DE6F /* ZlGroupBtnItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC59B1CE3186500C3DE6F /* ZlGroupBtnItemModel.m */; };
+		FBBFC5A51CE32F2B00C3DE6F /* NSString+StringForFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A01CE32F2B00C3DE6F /* NSString+StringForFont.m */; };
+		FBBFC5A61CE32F2B00C3DE6F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */; };
+		FBBFC5A71CE32F2B00C3DE6F /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +61,6 @@
 		FB11E3411CE1C676005086BC /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
 		FB11E3421CE1C676005086BC /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
 		FB11E3431CE1C676005086BC /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
-		FB11E3491CE1D9FD005086BC /* NSString+StringForFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringForFont.h"; sourceTree = "<group>"; };
-		FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringForFont.m"; sourceTree = "<group>"; };
 		FB7EC61C1CE02A4F00E34058 /* ZlBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZlBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EC6201CE02A4F00E34058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB7EC6221CE02A4F00E34058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +75,20 @@
 		FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlCellItemModel.m; sourceTree = "<group>"; };
 		FB7EC6681CE0423E00E34058 /* ZlTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlTableViewCell.h; sourceTree = "<group>"; };
 		FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlTableViewCell.m; sourceTree = "<group>"; };
+		FBBFC58C1CE2DD6E00C3DE6F /* ZlCellSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlCellSectionModel.h; sourceTree = "<group>"; };
+		FBBFC58D1CE2DD6E00C3DE6F /* ZlCellSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlCellSectionModel.m; sourceTree = "<group>"; };
+		FBBFC5931CE310C700C3DE6F /* ChannleDayDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannleDayDataController.h; sourceTree = "<group>"; };
+		FBBFC5941CE310C700C3DE6F /* ChannleDayDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannleDayDataController.m; sourceTree = "<group>"; };
+		FBBFC5961CE317AB00C3DE6F /* ZlGroupButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlGroupButtonView.h; sourceTree = "<group>"; };
+		FBBFC5971CE317AB00C3DE6F /* ZlGroupButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlGroupButtonView.m; sourceTree = "<group>"; };
+		FBBFC59A1CE3186500C3DE6F /* ZlGroupBtnItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlGroupBtnItemModel.h; sourceTree = "<group>"; };
+		FBBFC59B1CE3186500C3DE6F /* ZlGroupBtnItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlGroupBtnItemModel.m; sourceTree = "<group>"; };
+		FBBFC59F1CE32F2B00C3DE6F /* NSString+StringForFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringForFont.h"; sourceTree = "<group>"; };
+		FBBFC5A01CE32F2B00C3DE6F /* NSString+StringForFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringForFont.m"; sourceTree = "<group>"; };
+		FBBFC5A11CE32F2B00C3DE6F /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		FBBFC5A31CE32F2B00C3DE6F /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,15 +147,6 @@
 			path = image;
 			sourceTree = "<group>";
 		};
-		FB11E3481CE1D9EC005086BC /* ObjectC */ = {
-			isa = PBXGroup;
-			children = (
-				FB11E3491CE1D9FD005086BC /* NSString+StringForFont.h */,
-				FB11E34A1CE1D9FD005086BC /* NSString+StringForFont.m */,
-			);
-			path = ObjectC;
-			sourceTree = "<group>";
-		};
 		FB7EC6131CE02A4F00E34058 = {
 			isa = PBXGroup;
 			children = (
@@ -161,10 +170,10 @@
 		FB7EC61E1CE02A4F00E34058 /* ZlBI */ = {
 			isa = PBXGroup;
 			children = (
-				FB11E3481CE1D9EC005086BC /* ObjectC */,
+				FBBFC59D1CE32F2B00C3DE6F /* Utils */,
 				FB11E33B1CE1C1FF005086BC /* image */,
 				FB7EC6521CE02D5F00E34058 /* Model */,
-				FB7EC6531CE02D5F00E34058 /* View(列表的Cell) */,
+				FB7EC6531CE02D5F00E34058 /* View */,
 				FB7EC6541CE02D5F00E34058 /* ViewController */,
 				FB7EC6221CE02A4F00E34058 /* AppDelegate.h */,
 				FB7EC6231CE02A4F00E34058 /* AppDelegate.m */,
@@ -189,24 +198,27 @@
 		FB7EC6521CE02D5F00E34058 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FBBFC5991CE3183900C3DE6F /* GroupBtnModel(组按钮Model) */,
 				FB7EC6601CE032A300E34058 /* CellModel(列表的Cell的Model) */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FB7EC6531CE02D5F00E34058 /* View(列表的Cell) */ = {
+		FB7EC6531CE02D5F00E34058 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				FB7EC6681CE0423E00E34058 /* ZlTableViewCell.h */,
 				FB7EC6691CE0423E00E34058 /* ZlTableViewCell.m */,
+				FBBFC5961CE317AB00C3DE6F /* ZlGroupButtonView.h */,
+				FBBFC5971CE317AB00C3DE6F /* ZlGroupButtonView.m */,
 			);
-			name = "View(列表的Cell)";
 			path = View;
 			sourceTree = "<group>";
 		};
 		FB7EC6541CE02D5F00E34058 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FBBFC5921CE310A700C3DE6F /* ChannleDayDataController(BI日数据) */,
 				FB7EC6581CE02F5700E34058 /* ProList(产品列表) */,
 			);
 			path = ViewController;
@@ -227,9 +239,52 @@
 			children = (
 				FB7EC6611CE032BD00E34058 /* ZlCellItemModel.h */,
 				FB7EC6621CE032BD00E34058 /* ZlCellItemModel.m */,
+				FBBFC58C1CE2DD6E00C3DE6F /* ZlCellSectionModel.h */,
+				FBBFC58D1CE2DD6E00C3DE6F /* ZlCellSectionModel.m */,
 			);
 			name = "CellModel(列表的Cell的Model)";
 			path = CellModel;
+			sourceTree = "<group>";
+		};
+		FBBFC5921CE310A700C3DE6F /* ChannleDayDataController(BI日数据) */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFC5931CE310C700C3DE6F /* ChannleDayDataController.h */,
+				FBBFC5941CE310C700C3DE6F /* ChannleDayDataController.m */,
+			);
+			name = "ChannleDayDataController(BI日数据)";
+			path = ChannleDayDataController;
+			sourceTree = "<group>";
+		};
+		FBBFC5991CE3183900C3DE6F /* GroupBtnModel(组按钮Model) */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFC59A1CE3186500C3DE6F /* ZlGroupBtnItemModel.h */,
+				FBBFC59B1CE3186500C3DE6F /* ZlGroupBtnItemModel.m */,
+			);
+			name = "GroupBtnModel(组按钮Model)";
+			path = GroupBtnModel;
+			sourceTree = "<group>";
+		};
+		FBBFC59D1CE32F2B00C3DE6F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFC59E1CE32F2B00C3DE6F /* OC_Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBBFC59E1CE32F2B00C3DE6F /* OC_Category */ = {
+			isa = PBXGroup;
+			children = (
+				FBBFC59F1CE32F2B00C3DE6F /* NSString+StringForFont.h */,
+				FBBFC5A01CE32F2B00C3DE6F /* NSString+StringForFont.m */,
+				FBBFC5A11CE32F2B00C3DE6F /* UIColor+expanded.h */,
+				FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */,
+				FBBFC5A31CE32F2B00C3DE6F /* UIImage+Common.h */,
+				FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */,
+			);
+			path = OC_Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,10 +476,16 @@
 			files = (
 				FB7EC6631CE032BD00E34058 /* ZlCellItemModel.m in Sources */,
 				FB7EC6241CE02A4F00E34058 /* AppDelegate.m in Sources */,
+				FBBFC5A61CE32F2B00C3DE6F /* UIColor+expanded.m in Sources */,
+				FBBFC59C1CE3186500C3DE6F /* ZlGroupBtnItemModel.m in Sources */,
+				FBBFC5A71CE32F2B00C3DE6F /* UIImage+Common.m in Sources */,
 				FB7EC66A1CE0423E00E34058 /* ZlTableViewCell.m in Sources */,
-				FB11E34B1CE1D9FD005086BC /* NSString+StringForFont.m in Sources */,
+				FBBFC5951CE310C700C3DE6F /* ChannleDayDataController.m in Sources */,
 				FB7EC6211CE02A4F00E34058 /* main.m in Sources */,
 				FB11E33A1CE1BDC5005086BC /* ZlPduclistTableViewController.m in Sources */,
+				FBBFC5A51CE32F2B00C3DE6F /* NSString+StringForFont.m in Sources */,
+				FBBFC5981CE317AB00C3DE6F /* ZlGroupButtonView.m in Sources */,
+				FBBFC58E1CE2DD6E00C3DE6F /* ZlCellSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

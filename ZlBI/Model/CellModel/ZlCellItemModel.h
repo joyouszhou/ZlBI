@@ -41,6 +41,7 @@ typedef NS_ENUM(NSInteger, ZlCellItemStyle) {
 };
 
 @property (nonatomic, strong)   NSString *              textTitleName;                  //Cell的标题
+@property (nonatomic, strong)   UIFont   *              fontTitleName;                  //Cell标题的字体大小
 @property (nonatomic, strong)   NSString *              textDetail;                     //Cell的描述名称
 @property (nonatomic, strong)   NSString *              imageFile;                      //Cell的标题图片
 @property (nonatomic, strong)   NSString *              imageDetail;                    //Cell的描述图片
