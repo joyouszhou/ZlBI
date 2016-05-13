@@ -30,6 +30,8 @@
 		FBBFC5A61CE32F2B00C3DE6F /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A21CE32F2B00C3DE6F /* UIColor+expanded.m */; };
 		FBBFC5A71CE32F2B00C3DE6F /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */; };
 		FBBFC5AA1CE33E3400C3DE6F /* ZlChannelDataSummaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */; };
+		FBD629281CE5BB1F00308F71 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD629271CE5BB1F00308F71 /* KxMenu.m */; };
+		FBD6292B1CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD6292A1CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,10 @@
 		FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
 		FBBFC5A81CE33E3400C3DE6F /* ZlChannelDataSummaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlChannelDataSummaryView.h; sourceTree = "<group>"; };
 		FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlChannelDataSummaryView.m; sourceTree = "<group>"; };
+		FBD629261CE5BB1F00308F71 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		FBD629271CE5BB1F00308F71 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		FBD629291CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZlNaviTitlePopupMenuView.h; sourceTree = "<group>"; };
+		FBD6292A1CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZlNaviTitlePopupMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +179,7 @@
 		FB7EC61E1CE02A4F00E34058 /* ZlBI */ = {
 			isa = PBXGroup;
 			children = (
+				FBD629241CE5BB1F00308F71 /* Vendor */,
 				FBBFC59D1CE32F2B00C3DE6F /* Utils */,
 				FB11E33B1CE1C1FF005086BC /* image */,
 				FB7EC6521CE02D5F00E34058 /* Model */,
@@ -216,6 +223,8 @@
 				FBBFC5971CE317AB00C3DE6F /* ZlGroupButtonView.m */,
 				FBBFC5A81CE33E3400C3DE6F /* ZlChannelDataSummaryView.h */,
 				FBBFC5A91CE33E3400C3DE6F /* ZlChannelDataSummaryView.m */,
+				FBD629291CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.h */,
+				FBD6292A1CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +299,23 @@
 				FBBFC5A41CE32F2B00C3DE6F /* UIImage+Common.m */,
 			);
 			path = OC_Category;
+			sourceTree = "<group>";
+		};
+		FBD629241CE5BB1F00308F71 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				FBD629251CE5BB1F00308F71 /* KxMenu */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		FBD629251CE5BB1F00308F71 /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBD629261CE5BB1F00308F71 /* KxMenu.h */,
+				FBD629271CE5BB1F00308F71 /* KxMenu.m */,
+			);
+			path = KxMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,6 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD6292B1CE5CD5800308F71 /* ZlNaviTitlePopupMenuView.m in Sources */,
 				FB7EC6631CE032BD00E34058 /* ZlCellItemModel.m in Sources */,
 				FB7EC6241CE02A4F00E34058 /* AppDelegate.m in Sources */,
 				FBBFC5A61CE32F2B00C3DE6F /* UIColor+expanded.m in Sources */,
@@ -490,6 +517,7 @@
 				FB11E33A1CE1BDC5005086BC /* ZlPduclistTableViewController.m in Sources */,
 				FBBFC5A51CE32F2B00C3DE6F /* NSString+StringForFont.m in Sources */,
 				FBBFC5981CE317AB00C3DE6F /* ZlGroupButtonView.m in Sources */,
+				FBD629281CE5BB1F00308F71 /* KxMenu.m in Sources */,
 				FBBFC58E1CE2DD6E00C3DE6F /* ZlCellSectionModel.m in Sources */,
 				FBBFC5AA1CE33E3400C3DE6F /* ZlChannelDataSummaryView.m in Sources */,
 			);

@@ -33,7 +33,7 @@
     [self addSubview:btn];
    
     [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.lastBtn?self.lastBtn.mas_right:self.mas_left);
+        make.left.mas_equalTo(self.lastBtn?self.lastBtn.mas_right:self.mas_left).with.offset(1);
         make.top.mas_equalTo(self.mas_top);
         make.height.mas_equalTo(self.mas_height);
         make.width.mas_equalTo(self.mas_width).multipliedBy(1.00/(self.btnCount+1));
